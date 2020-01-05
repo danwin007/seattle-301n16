@@ -1,1 +1,86 @@
 
+body {
+  max-height: 767px;
+}
+div {
+  max-width: 480px;
+  width: 100%;
+}
+
+div p {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* DIV SPECIFIC CONTROLS */
+
+#aDiv {
+  background-color: green;
+  height: 75px;
+  line-height: 75px;
+}
+
+#bDiv {
+  background-color: blue;
+  height: 150px;
+  line-height: 150px;
+}
+
+#cDiv {
+  height: 125px;
+  line-height: 150px;
+  background-color: orange;
+}
+
+#dDiv {
+  height: 125px;
+  line-height: 125px;
+  background-color: teal;
+}
+
+#eDiv {
+  height: 250px;
+  line-height: 250px;
+  width: 50%;
+  background-color: white;
+  float: left;
+  clear: left;
+}
+
+#fDiv {
+  height: 250px;
+  line-height: 250px;
+  width: 50%;
+  background-color: grey;
+  float: right;
+  clear: right;
+}
+
+#gDiv {
+  height: 250px;
+  line-height: 250px;
+  width: 50%;
+  background-color: purple;
+  float: left;
+  clear: left;
+}
+
+#hDiv {
+  height: 250px;
+  line-height: 250px;
+  width: 50%;
+  background-color: yellow;
+  float: right;
+  clear: right;
+}
+
+#iDiv {
+  height: 80px;
+  line-height: 80px;
+  background-color: red;
+  clear: both;
+}
+
+
+
+
