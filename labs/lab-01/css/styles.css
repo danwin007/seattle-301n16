@@ -28,7 +28,7 @@ div p {
 
 #cDiv {
   height: 125px;
-  line-height: 150px;
+  line-height: 125px;
   background-color: orange;
 }
 
@@ -81,6 +81,94 @@ div p {
   clear: both;
 }
 
+/* Media Breakpoint Entry at 768 pixels across */
+/* For Desktop */
+@media only screen and (min-width: 768px) {
 
+  div, body {
+    max-width: 960px;
+    width: 100%;
+  }
+
+  #aDiv {
+    background-color: purple;
+    height: 100px;
+    line-height: 100px;
+  }
+  
+  #bDiv {
+    background-color: orange;
+    height: 600px;
+    line-height: 600px;
+    width: 200px;
+    float: left;
+    overflow: hidden;
+  }
+  
+  #dDiv {
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
+    background-color: yellow;
+    float: right;
+  }
+
+  #cDiv {
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
+    background-color: blue;
+    float: right;
+  }
+
+  #eDiv {
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+    background-color: green;
+    overflow: hidden;
+    float: right;
+    clear: right;
+  }
+  
+  #fDiv {
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+    background-color: teal;
+    float: right;
+  }
+  
+  #gDiv {
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+    background-color: magenta;
+    float: right;
+  }
+  
+  #hDiv {
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+    background-color: lightgrey;
+    float: right;
+    clear: both;
+  }
+  
+  #iDiv {
+    height: 150px;
+    line-height: 150px;
+    width: 760px;
+    background-color: lightblue;
+    float: right;
+    clear: both;
+  }
+
+
+
+
+
+}
 
 
