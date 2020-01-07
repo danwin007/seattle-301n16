@@ -94,6 +94,7 @@ div p {
     background-color: purple;
     height: 100px;
     line-height: 100px;
+    overflow: hidden;
   }
   
   #bDiv {
@@ -102,15 +103,7 @@ div p {
     line-height: 600px;
     width: 200px;
     float: left;
-    overflow: hidden;
-  }
-  
-  #dDiv {
-    height: 200px;
-    line-height: 200px;
-    width: 380px;
-    background-color: yellow;
-    float: right;
+    /* display: inline-block; */
   }
 
   #cDiv {
@@ -118,7 +111,21 @@ div p {
     line-height: 200px;
     width: 380px;
     background-color: blue;
+    /* display: inline-block; */
+    /* overflow: hidden; */
     float: right;
+    /* clear: both; */
+  }
+
+  #dDiv {
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
+    background-color: yellow;
+    /* display: inline-block; */
+    /* overflow: hidden; */
+    float: right;
+    /* clear: both; */
   }
 
   #eDiv {
@@ -126,9 +133,10 @@ div p {
     line-height: 250px;
     width: 190px;
     background-color: green;
-    overflow: hidden;
-    float: right;
-    clear: right;
+    /* overflow: hidden; */
+    /* float: right; */
+    /* clear: left; */
+    display: inline-block;
   }
   
   #fDiv {
@@ -136,7 +144,9 @@ div p {
     line-height: 250px;
     width: 190px;
     background-color: teal;
-    float: right;
+    /* float: right; */
+    /* clear: left; */
+    display: inline-block;
   }
   
   #gDiv {
@@ -144,7 +154,9 @@ div p {
     line-height: 250px;
     width: 190px;
     background-color: magenta;
-    float: right;
+    /* float: right; */
+    /* clear: left; */
+    display: inline-block;
   }
   
   #hDiv {
@@ -152,8 +164,9 @@ div p {
     line-height: 250px;
     width: 190px;
     background-color: lightgrey;
-    float: right;
-    clear: both;
+    /* float: right; */
+    /* clear: left; */
+    display: inline-block;
   }
   
   #iDiv {
@@ -161,12 +174,28 @@ div p {
     line-height: 150px;
     width: 760px;
     background-color: lightblue;
-    float: right;
     clear: both;
+    /* display: inline-block; */
+    float: right;
   }
 
+  #dCDiv {
+    max-width: 760px;
+    float: right;
+    /* display: inline-block; */
+    /* clear: both; */
+  }
 
+  #quadDiv {
+    display: inline-block;
+    max-width: 760px;
+    /* float: right; */
+  }
 
+  #cToIDiv {
+    float: right;
+    max-width: 760px;
+  }
 
 
 }
