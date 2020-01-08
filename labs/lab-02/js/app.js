@@ -46,6 +46,7 @@ Builder.prototype.render = function () {
 };
 
 // need code to grab info from json file
+// Based off of the Dog demo code in class 02
 Builder.readJson = () => {
   $.get('./data/page-1.json', 'json')
     .then(data => {
@@ -62,4 +63,10 @@ Builder.loadImgs = () => {
 };
 
 $(() => Builder.readJson());
-// Builder.readJson();
+
+
+// filtering the images handler
+$('#filter').on('change', function () {
+  $('section').hide();
+  $(`.${this.value}`).show();
+});
