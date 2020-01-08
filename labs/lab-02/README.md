@@ -9,9 +9,9 @@ Estimate of time needed to complete: _60 min____
 
 Start time: __5:27PM___
 
-Finish time: _____
+Finish time: __7:43PM___
 
-Actual time needed to complete: _____
+Actual time needed to complete: _2hr, 15min____
 
 # Feature 2 - Filter Images
 Number and name of feature: ________________________________
