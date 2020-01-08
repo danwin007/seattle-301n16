@@ -5,6 +5,7 @@ body {
 div {
   max-width: 480px;
   width: 100%;
+  border: none;
 }
 
 div p {
@@ -85,9 +86,15 @@ div p {
 /* For Desktop */
 @media only screen and (min-width: 768px) {
 
+  section {
+    overflow: hidden;
+    border: none;
+  }
   div, body {
     max-width: 960px;
     width: 100%;
+    border: none;
+    /* overflow: hidden; */
   }
 
   #aDiv {
@@ -103,6 +110,7 @@ div p {
     line-height: 600px;
     width: 200px;
     float: left;
+    text-align: center;
     /* display: inline-block; */
   }
 
@@ -111,9 +119,10 @@ div p {
     line-height: 200px;
     width: 380px;
     background-color: blue;
-    /* display: inline-block; */
+    display: inline-block;
+    margin-right: -5px;
     /* overflow: hidden; */
-    float: right;
+    /* float: right; */
     /* clear: both; */
   }
 
@@ -123,6 +132,7 @@ div p {
     width: 380px;
     background-color: yellow;
     /* display: inline-block; */
+    border: none;
     /* overflow: hidden; */
     float: right;
     /* clear: both; */
@@ -137,6 +147,7 @@ div p {
     /* float: right; */
     /* clear: left; */
     display: inline-block;
+    border: none;
   }
   
   #fDiv {
@@ -147,6 +158,7 @@ div p {
     /* float: right; */
     /* clear: left; */
     display: inline-block;
+    border: none;
   }
   
   #gDiv {
@@ -157,6 +169,7 @@ div p {
     /* float: right; */
     /* clear: left; */
     display: inline-block;
+    border: none;
   }
   
   #hDiv {
@@ -167,6 +180,7 @@ div p {
     /* float: right; */
     /* clear: left; */
     display: inline-block;
+    border: none;
   }
   
   #iDiv {
@@ -187,14 +201,16 @@ div p {
   }
 
   #quadDiv {
-    display: inline-block;
+    /* display: inline-block; */
     max-width: 760px;
-    /* float: right; */
+    float: right;
+    border: none;
   }
 
   #cToIDiv {
     float: right;
     max-width: 760px;
+    border: none;
   }
 
 
