@@ -1,6 +1,7 @@
 Space for Lab 03
 
 Coding Partners: Daniel Nguyen, Krystal Madrinan
+*making edits to get a clean PR in*
 
 # Feature 1 - Pagination
 Number and name of feature: ________________________________
