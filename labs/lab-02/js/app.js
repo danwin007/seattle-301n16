@@ -13,37 +13,51 @@ function Builder (buildObj) {
 
 //function that fires on page render to add images to page
 // (CREDIT) Krystal had code from a previous iteration that we used as base for our lab
+// Builder.prototype.render = function () {
+
+//   // HELPER VARS
+//   //selects the photo-template ID in the HTML
+//   const addTemplate = $('#photo-template').html();
+
+//   //adds title of image as drop down option
+//   const $addOption = $(`<option>${this.title}</option>`);
+
+//   //adds <section> to page
+//   const $addSection = $(`<section></section>`);
+
+//   //jquery to add pieces to page
+//   //below adds to html
+//   $addSection.html(addTemplate);
+//   // need to add h2, img, p, alt, class elements
+//   $addSection.find('h2').text(this.title);
+//   $addSection.find('img').attr('src', this.image_url);
+//   $addSection.find('p').text(this.description);
+//   $addSection.find('img').attr('alt', this.title);
+//   $addSection.attr('class', this.keyword);
+
+//   $('main').append($addSection);
+
+//   // add titles to dropdown list
+//   $addOption.attr('value', this.keyword);
+//   $addOption.attr('class', this.keyword);
+//   $addOption.text(this.title);
+
+//   $('#filter').append($addOption);
+// };
+
 Builder.prototype.render = function () {
+  //1 get template from html
+  let template = $('#horns-template').html();
+  //2 use handlerbars to compile html
+  let templateRender = Handlebars.compile(template);
+  //3 return the html
+  // return templateRender(this);
+  let templateHTML = templateRender(this);
+  console.log(templateHTML);
+  return templateHTML;
+}
 
-  // HELPER VARS
-  //selects the photo-template ID in the HTML
-  const addTemplate = $('#photo-template').html();
 
-  //adds title of image as drop down option
-  const $addOption = $(`<option>${this.title}</option>`);
-
-  //adds <section> to page
-  const $addSection = $(`<section></section>`);
-
-  //jquery to add pieces to page
-  //below adds to html
-  $addSection.html(addTemplate);
-  // need to add h2, img, p, alt, class elements
-  $addSection.find('h2').text(this.title);
-  $addSection.find('img').attr('src', this.image_url);
-  $addSection.find('p').text(this.description);
-  $addSection.find('img').attr('alt', this.title);
-  $addSection.attr('class', this.keyword);
-
-  $('main').append($addSection);
-
-  // add titles to dropdown list
-  $addOption.attr('value', this.keyword);
-  $addOption.attr('class', this.keyword);
-  $addOption.text(this.title);
-
-  $('#filter').append($addOption);
-};
 
 // need code to grab info from json file
 // Based off of the Dog demo code in class 02
@@ -70,3 +84,5 @@ $('#filter').on('change', function () {
   $('section').hide();
   $(`.${this.value}`).show();
 });
+
+

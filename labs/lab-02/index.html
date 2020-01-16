@@ -11,6 +11,14 @@
   <link rel="stylesheet" href="css/modules.css">
   <link href="https://fonts.googleapis.com/css?family=New+Rocker&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- this is our handlebars template -->
+   <script id="horns-template" type="text/x-handlebars-template">
+    <section>
+        <h2>{{title}}</h2>
+        <img src={{image_url}} alt={{title}} class={{keyword}}>
+        <p>{{description}}</p>
+    </section>
 </head>
 
 <body>
@@ -21,11 +29,11 @@
     </select>
   </header>
   <main>
-    <section id="photo-template">
+    <!-- <section id="photo-template">
       <h2></h2>
       <img src="" alt="">
       <p></p>
-    </section>
+    </section> -->
   </main>
   <footer>
     &copy; 2018 Code Fellows
