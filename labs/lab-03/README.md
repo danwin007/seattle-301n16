@@ -1,30 +1,41 @@
-Space for Lab 02
+Space for Lab 03
 
 Coding Partners: Daniel Nguyen, Krystal Madrinan
 
-# Feature 1 - Display Images
+# Feature 1 - Pagination
 Number and name of feature: ________________________________
 
-Estimate of time needed to complete: _60 min____
+Estimate of time needed to complete: _____
 
-Start time: __5:27PM___
+Start time: _____
 
-Finish time: __7:43PM___
+Finish time: _____
 
-Actual time needed to complete: _2hr, 15min____
+Actual time needed to complete: _____
 
-# Feature 2 - Filter Images
+# Feature 2 - Templating
 Number and name of feature: ________________________________
 
-Estimate of time needed to complete: 1 hour
+Estimate of time needed to complete: 
 
-Start time: 7:50
+Start time: 
 
-Finish time: 8:04
+Finish time: 
 
-Actual time needed to complete: 14 minutes
+Actual time needed to complete: 
 
-# Feature 3 - Style the Application
+# Feature 3 - Styling with Flexbox
+Number and name of feature: ________________________________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+# Feature 4 - Sort the Images
 Number and name of feature: ________________________________
 
 Estimate of time needed to complete: _____
